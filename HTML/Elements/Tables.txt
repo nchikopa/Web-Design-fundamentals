@@ -1,0 +1,46 @@
+Table
+- is a grid(rows and columns)
+- references information on two axis 
+- a grid is referenced as table cell
+- In HTML table is written row x row
+
+Tables Elements 
+
+Basic structure of a table
+
+<table>"....table content......</table> 
+    - this table opening and closing tag creates a table. 
+    - the table content is written row x row
+    _ the start of row is indicated by the row tag
+
+<tr>....row content....</tr>
+    - this is a table row opening and closing tag
+    - it contains row content which is referenced to as table data
+    - row content is written in one row thus from left to right corresponding to the number of availale columns if any
+
+<td>.....data...</td>
+    - td refferes to to table data
+    - the opening and closing tags of td holds the information that will be displayed on the browers
+    - this is information of data inside the table
+
+analogus to the HTML document structure, the table can be persived as:
+
+                <html>                                           <table>
+                                             <!--Meta data-->
+                    <head>                                            <tr>
+                        <title>....</title>                              <td>....</td>
+                    </head>                                           </tr>
+                </html>                                         </table>
+
+
+                - html marks the start and ending of html document. In constrat, Table marks the start and end of table document
+                - head and title || table raw an table data simply tell us about the document or rather the propertises of the elements making uo the documents and not the actuall content of the document
+                - content in title || table data is what is dispalyed by the broswer and it is what is consumed by the user. 
+
+<th>....Heading content....</th>
+    - represents the heading of either a column or row - scope attribute can be used to indicate whether heading is for column or row 
+                    <th scope="col" || scope="raw">.....</th>
+    - it can span in column or in row
+    - browser display it bold and middle of cell
+    - has the same propertises as <td> except its a heading
+    - helps screen readers, improves ability of SE to index page, enables appearance of table when appliying CSS

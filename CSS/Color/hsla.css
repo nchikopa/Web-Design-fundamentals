@@ -1,0 +1,14 @@
+body {
+    padding-left: 10px;
+    background-color: #C8C8C8;
+    background-color: hsl(0,0%,78%);}
+h1 {
+    background-color: DarkCyan;
+    padding: inherit;}
+h2 {
+    background-color: #ee3e80;
+    padding: inherit;}
+p {
+    padding: inherit;
+    background-color: #ffffff;
+    background-color: hsla(0, 100%, 100%, 0.5);}
