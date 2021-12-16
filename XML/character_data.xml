@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE students [
+<!-- 'student' must contain four child elements in the order listed -->
+<!ELEMENT student (profile, identity, surname, firstname)>
+<!-- the elements listed below may only contain text that is not markup-->
+<!ELEMENT identity (#PCDATA)>
+<!ELEMENT profile EMPTY>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT surname (#PCDATA)>
+<!ATTLIST profle image ENTITY #REQUIRED>
+<!ENTITY a SYSTEM
+    "https://www.abc.com/photo/image1.jpg">
+<!ATTLIST identity stid ID #REQUIRED>
+]>
+<student>
+        <profile image="a"/>
+        <identity stid="9216735"></identity>
+        <surname>Smith</surname>
+        <firstname>Jo</firstname>
+</student>

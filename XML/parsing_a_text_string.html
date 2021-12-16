@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Parsing a text string</title>
+    </head>
+
+<body>
+    <p id="demo"></p>
+
+    <script>
+        var text, parser, xmlDoc;
+
+        text = "<bookstore><book>"+"<title>Everyday Italian</title>"+"<author>Giada De Laurentiis</author>"+"<year>2005</year>"+"</book></bookstore>";
+
+        parser = new DOMParser();
+        xmlDoc = parser.parserFromString(text, "text/xml");
+
+        document.getElementById("demo").InnerHTML = xmlDoc.getElementByTagName("title")[0].childNodes[0].nodeValue;
+    </script>
+
+</body>
+</html>

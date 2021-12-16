@@ -1,0 +1,14 @@
+.body {
+        color:rgb(24, 167, 219);
+      }
+.heading {
+            text-align:center;
+         }
+Table, tr, th, td {
+            border: 1px solid;
+            border-collapse: collapse;
+            border-left: none;
+            padding-left: 20px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+       }

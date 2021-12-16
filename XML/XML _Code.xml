@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<details>
+    <contact>
+        <person_name>TOM CRUISE</person_name>
+        <id>100</id>
+        <company>XYZ Corp.</company>
+        <email>tom@usa.net</email>
+        <phone>3336767</phone>
+        <street_address>25th St.</street_address>
+        <city>Toronto</city>
+        <state>Toronto</state>
+        <zip>20056</zip>
+    </contact>
+
+    <!-- trying CDATA Character data-->
+    <sample>
+            <![CDATA[<Document>
+            <name>NGONIDZASHE CHIKOPA</name>
+            <email>ngonidzashe702@gmail.com</email>
+            </Document>]]>]
+    </sample>
+  </details>

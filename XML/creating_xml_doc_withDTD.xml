@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="no"?>
+<!-- creating a Document Type Definition . We will use an external file called library.dtd -->
+<!DOCTYPE library SYSTEM "library.dtd">
+<library>
+    <issued to="Faculty">
+        <Bkid>C001</Bkid>
+        <Date>05/05/2020</Date>
+        <Details>
+            <name>Peter</name>
+            <id>f001</id>
+        </Details>
+    </issued>
+    <issued to="Student">
+        <Bkid>JV001</Bkid>
+        <Date>06/05/2020</Date>
+        <Details>
+            <name>Paul</name>
+            <id>st001</id>
+        </Details>
+    </issued>
+</library>

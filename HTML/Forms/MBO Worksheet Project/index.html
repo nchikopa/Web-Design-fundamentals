@@ -1,0 +1,114 @@
+<!-- File:      Managment by objectives Worksheet
+     Purpose:   HTML and CSS pratice on how to implement tables and forms by implementing a M.B.O. worksheet found on page 222       in the book "Personnel (Managing People at work) by Dale S Beach: 5th Edition"   
+     Author:    Ngonidzashe Freedy Chikopa
+     Contacts:  ngonidzashe702@gmail.com | +263775010670 | nfchikopa@github.com | twiiter handle @NCHIKOPA -->
+
+     <!DOCTYPE html>
+     <html lang="en">
+         <head>
+             <meta charset="UFT-8" />
+             <meta name="viewport" content="width=device-with, intial-scale" />
+             <title>MBO Worksheet</title>
+             <link rel="stylesheet" type="text/css" href="styles.css" />
+         </head>
+         <body class="body">
+             <h1 class="heading">A Managment by Objectives Worksheet for a Tire and Rubber Company Store Manager.</h1>
+             <hr />
+             <hr />
+             <h2 class="heading">HIGH PERFOMANCE TIRE & RUBBER COMPANY</h2>
+             <form action="https://www.rubbercompany.com" >
+                  <!-- to aling Position input to the right. To collapse left, top and right form borders-->
+                 <p>Name:
+                   <input type="text" name="name" />
+                    Position:
+                   <input type="text" name="position" />                  
+                </p>
+             </form>
+             <table width="100%">
+                 <!-- remove right border. remove table data borders in row 6-->
+                <thead>
+                     <tr>
+                         <th scope="col" rowspan="2">Area of <br>Responsibility</th>
+                         <th scope="col"rowspan="2">Type of <br>Measure</th>
+                         <th scope="col" colspan="2">Levels of Performance</th>
+                         <th scope="col" rowspan="2">Time <br>Period</th>
+                         <!-- Reduce padding right-->
+                         <th scope="col" rowspan="2">Plans for Meeting <br>Objectives</th>
+                         <th scope="col" rowspan="2"> <br>Results Achieved</th>
+                     </tr>
+                     <tr>
+                         <td>Present Level</td>
+                         <td>Objectives</td>
+                     </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1. Retail sales</td>
+                        <td>Units<br>Dollars</td>
+                        <td>350/mo<br>$25000/mo</td>
+                        <td>450/mo<br>$32000/mo</td>
+                        <td>1 year</td>
+                        <td>Increase adversiting flyers and newspaper ads. More customer safety checks in shop (tread wear, schocks).</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>2. Operational Costs</td>
+                        <td>Dollars</td>
+                        <td>$7000/mo</td>
+                        <td>$6600/mo</td>
+                        <td>1 year</td>
+                        <td>Control overtime and use of part time help; consolidate merchandise orders; reduce bad debts</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>3. Service Sales<br> (Brakes, exhaust systems, shock absorbers, etc</td>
+                        <td>Dollars</td>
+                        <td>$5500/mo</td>
+                        <td>$6500/mo</td>
+                        <td>1 year</td>
+                        <td>Increase adversiting; use discounts coupons for state inspections.</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>4. Wholesale sales</td>
+                        <td># of tires</td>
+                        <td>95/mo</td>
+                        <td>110/mo</td>
+                        <td>1 year</td>
+                        <td>More contracts with dealers; discounts and promotional allowances.</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>5. Quality of<br> Service</td>
+                        <td># of written customer complaints</td>
+                        <td>7/year</td>
+                        <td>3/year</td>
+                        <td>1 year</td>
+                        <td>Better training of mechanics; better scheduling of appointments; handle complaints more promptly</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>6. Safety</td>
+                        <td># of lost workday injuries</td>
+                        <td>4/year</td>
+                        <td>0/year</td>
+                        <td>1 year</td>
+                        <td>Safety training, maintain equipment better</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr></tr>
+                </tfoot>
+             </table>
+             <br><br>
+            <form action="https://rubbercompany.com">
+                <!-- to aling supervisor sign input to the right. To collapse left, top and right form borders-->
+                <input type="text" name="employee signature" />
+                <input type="text" name="supervisor signature" />
+                <p><i>Emplpoyee's signature</i><i>Supervisor's Signature</i></p>
+                <input type="date" name="employee signature" />
+                <input type="date" name="supervisor signature" />
+            </form>
+         </body>
+     </html>
