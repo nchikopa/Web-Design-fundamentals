@@ -9,9 +9,14 @@
                 var name = prompt(message);
                 alert("Hi " + name + " welcome to JS course.\n")
             }
+
+            // startFunc() is a function that alerts succeful load of page and displays date
+            function startFunc() {
+                alert("Loaded successfully on " + new Date());
+            }
         </script>
     </head>
-    <body>
+    <body onload="startFunc()">
         <h1>Welcome to JS course</h1>
         <hr>
         <!-- function call-->
